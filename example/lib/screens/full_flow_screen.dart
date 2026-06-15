@@ -145,6 +145,7 @@ class _FullFlowScreenState extends State<FullFlowScreen> {
 
     if (state.team != null) {
       for (final p in state.team!.fieldPlayers) {
+        if (p.coordinate == null) continue;
         homeCoords.add({
           'id': p.id,
           'name': p.name,
@@ -156,6 +157,7 @@ class _FullFlowScreenState extends State<FullFlowScreen> {
     }
     if (state.opponentTeam != null) {
       for (final p in state.opponentTeam!.fieldPlayers) {
+        if (p.coordinate == null) continue;
         opponentCoords.add({
           'id': p.id,
           'name': p.name,
