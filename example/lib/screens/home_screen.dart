@@ -18,6 +18,7 @@ import '../screens/controller_api_screen.dart';
 import '../screens/custom_builders_screen.dart';
 import '../screens/runtime_formation_screen.dart';
 import '../screens/mirrored_opponent_screen.dart';
+import '../screens/full_flow_screen.dart';
 import '../screens/light_dark_theme_screen.dart';
 
 /// The home screen listing all example demonstrations.
@@ -81,6 +82,8 @@ class HomeScreen extends StatelessWidget {
           _tile(context, '19. Light Theme', const LightDarkThemeScreen(isDark: false)),
           _tile(
               context, '20. Dark Theme', const LightDarkThemeScreen(isDark: true)),
+          _section(context, 'Full Flow'),
+          _tile(context, '21. Full Flow Demo', const FullFlowScreen()),
         ],
       ),
     );
