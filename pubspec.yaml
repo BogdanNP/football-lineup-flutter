@@ -1,0 +1,25 @@
+name: flutter_soccer_lineup
+description: >-
+  A highly customizable soccer (football) lineup package for Flutter.
+  Inspired by apps like Sofascore and FotMob, with full support for
+  formations, drag & drop, custom themes, animations, and tactical boards.
+version: 0.1.0
+homepage: https://github.com/BogdanNP/football-lineup-flutter
+repository: https://github.com/BogdanNP/football-lineup-flutter
+issue_tracker: https://github.com/BogdanNP/football-lineup-flutter/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
