@@ -29,6 +29,9 @@ class _FullFlowScreenState extends State<FullFlowScreen> {
   bool _freeMovement = false;
   bool _showingOpponentBench = false;
   SoccerPlayer? _selectedForSub;
+  bool _showHomeTeam = true;
+  bool _showOpponentTeam = true;
+  SoccerPlayer? _swapSource;
 
   @override
   void initState() {
